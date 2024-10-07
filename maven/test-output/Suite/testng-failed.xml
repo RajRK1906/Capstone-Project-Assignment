@@ -5,12 +5,11 @@
     <classes>
       <class name="stepdefinition.Step">
         <methods>
-          <include name="i_click_on_the_dropdown_link"/>
           <include name="i_confirm_the_selection"/>
-          <include name="i_verify_the_title_of_the_page"/>
+          <include name="i_launch_the_application"/>
           <include name="i_verify_the_text_on_the_a_b_testing_page"/>
-          <include name="i_click_on_a_b_testing_link"/>
           <include name="close_the_browser"/>
+          <include name="i_click_on_frames"/>
           <include name="i_select_option"/>
           <include name="i_verify_the_presence_of_nested_frames_and_iframe_links"/>
         </methods>
